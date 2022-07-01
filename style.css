@@ -1,0 +1,79 @@
+body, html{
+    align-items: center;
+    background-color: rgb(45, 45, 77);
+    margin: 1;
+    padding: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    color:aliceblue;
+    font-family: 'League Gothic', sans-serif;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+
+.rotulo{
+    font-size: 21px;
+    width: 300px;
+}
+
+h2{
+    margin-bottom: 6px;
+}
+
+.duracao{
+    width: 300px;
+    margin-top: 25px;
+}
+
+.barra{
+    width: 300px;
+    height: 6px;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+progress{
+    height: 6px;
+    width: 0%;
+    background-color: rgb(45, 45, 77);
+}
+
+.ponto{
+    width: 15px;
+    height: 15px;
+    background-color: wheat;
+    border-radius: 50%;
+    margin-left: -10px;
+}
+
+.tempo{
+    display: flex;
+    width: 300px;
+    justify-content: space-between  ;
+}
+.botao{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+.botao-play, .botao-pause{
+        font-size: 45px;
+        cursor: pointer;
+}
+.setas{
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.botao-pause{
+    display: none;
+}
